@@ -17,6 +17,9 @@ struct ContentView: View {
                     
                 }
             }
+            ScrollView {
+                VideoCard(video: previewVideo)
+            }
         }
         .background(Color("AccentColor"))
     }
