@@ -13,7 +13,7 @@ struct VideoView: View {
     @State private var player = AVPlayer()
     
     var body: some View {
-        videoPlayer(player: player)
+        VideoPlayer(player: player)
             .edgesIgnoringSafeArea(.all)
             .onAppear {
                 if let link =
