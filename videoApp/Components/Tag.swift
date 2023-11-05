@@ -15,10 +15,10 @@ struct Tag: View {
         Text(query.rawValue)
             .font(.caption)
             .bold()
-            .foregroundStyle(isSelected ? .black : .gray)
+            .foregroundStyle(isSelected ? .black : .white)
             .padding(10)
             .background(.thinMaterial)
-            .cornerRadius(10)
+            .cornerRadius(20)
         
     }
 }
